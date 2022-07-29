@@ -1,3 +1,17 @@
+### DESIGN IDEAS
+- on home page maybe change link to 'Jump to projects/experience' or 
+'Jump to my work
+-alternate color schemes between pages (i.e. white background, then
+on next page do the opposite and have navy background, etc).)
+- also have projects/work experience in the same section (same page/background) but 
+different headings like
+WORK heading
+and then squares with my work
+PROJECTS heading
+and then scroll to see projects
+- i can also make an activites and leadership section too
+
+
 ### TODO
 - make responsive for XL screen https://speckyboy.com/designing-websites-for-large-screens/
 - test above by zooming out to 50% view
@@ -81,6 +95,12 @@ https://react-icons.github.io/react-icons/
 https://stackoverflow.com/questions/56636280/how-to-style-react-icons
 https://stackoverflow.com/questions/46262811/react-icon-does-not-align-with-text
 https://www.youtube.com/watch?v=G-Cr00UYokU&t=1375s
+
+<a href="https://www.flaticon.com/free-icons/egg" title="egg icons">Egg icons created by Darius Dan - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/cute" title="cute icons">Cute icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/japan" title="japan icons">Japan icons created by smalllikeart - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/girl" title="girl icons">Girl icons created by Creartive - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/girl" title="girl icons">Girl icons created by Freepik - Flaticon</a>
 
 <!-- 
 Emmet shortcuts:  

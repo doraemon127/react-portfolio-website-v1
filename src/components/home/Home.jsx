@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import CallToAction from './CallToAction'
-import ME from '../../assets/me.png'
+import ME from '../../assets/girl.png'
 import Socials from './Socials'
 
 const Home = () => {
@@ -31,7 +31,7 @@ const Home = () => {
         </div>
 
         {/* scroll down to contact page when clicked */}
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <a href="#contact" className='scroll_down'>Scroll To Bottom</a>
 
 
 
