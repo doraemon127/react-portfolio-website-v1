@@ -24,6 +24,9 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
+    /* transition */
+    --transition: all 400ms ease;
+
     /* width of container class depending on screen size (large, medium, small) */
     --container-width-lg: 75%; 
     --container-width-md: 86%;
@@ -44,11 +47,134 @@ body {
     background: var(--color-bg);
     color: var(--color-white);  /* set text color */
     line-height: 1.7;
-
-    /* add background texture */
-    background-image: url(../src/assets/bg-texture.png);
-    
-
-
+    background-image: url(../src/assets/bg-texture.png);  /* add background texture */
 }
 
+
+
+
+/* ---------------------------- GENERAL STYLES ---------------------------- */
+
+
+
+/* general class for containers */
+.container {
+    width: var(--container-width-lg); /* default */
+    margin: 0 auto; /* position in middle horizontally */
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-weight: 500;
+}
+
+/* h1 tag */
+h1 {
+    font-size: 2.5rem;
+}
+
+/* almost all page componenets will be wrapped in section tag */
+section {
+    margin-top: 8rem;
+}
+
+/* each section is going to have h2 and h5 direct child */
+section > h2, 
+section > h5 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
+/* general text-light class */
+.text-light {
+    color: var(--color-light);
+}
+
+/* anchor tag */
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+/* hover effect for anchor tag */
+a:hover {
+    color: var(--color-white);
+}
+
+/* general class for buttons */
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;  /* padding for left and right */
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);    
+    transition: var(--transition);  /* to smoothen hover effect */
+}
+
+/* general class for button hover effect */
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+/* general class for buttons with color-primary */
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+/* img tag */
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* -------------- MEDIA QUERIES (medium devices, i.e. tablet) -------------- */
+
+
+@media screen and (max-width: 1024px) {
+
+    /* change width in general container class */
+    .container {
+        width: var(--container-width-md);
+    }
+
+    /* modify margin top in section tag style */
+    section {
+        margin-top: 6rem;
+    }
+}
+
+
+
+
+/* --------------- MEDIA QUERIES (small devices, i.e. phone) --------------- */
+
+
+@media screen and (max-width: 600px) {
+
+    /* change width in general container class */
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    /* modify margin top in section tag style */
+    section > h2 {
+        margin-top: 2rem;
+    }
+}
