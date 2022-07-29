@@ -1,10 +1,10 @@
 import React from 'react'
-import '/home.css'
+import './home.css'
 
-const Header = () => {
+const Home = () => {
   return (
-    <div>Header</div>
+    <div>Home</div>
   )
 }
 
-export default Header
+export default Home
