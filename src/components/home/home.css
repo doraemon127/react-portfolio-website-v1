@@ -1,0 +1,66 @@
+/* style for HTML5 header element in Home.jsx */
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.home_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* CallToAction button styling */
+.callToAction {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+/* align download icon with text */
+.dlIcon {
+    padding-top: 0.3rem;
+}
+
+/* Socials Icons */
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+/* line below socials, using after pseudoelement */
+.socials::after {
+    content: '';
+    width: 1px;
+    height: 3.5rem;
+    background: var(--color-primary);
+}
+
+
+/* me image */
+.me {
+    background: linear-gradient(var(--color-primary), transparent) ;
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+
+    /* 
+     * center the image 
+     * alternatively, can do left: calc(50% - 11rem);  
+     * since 50% minus half the width (11 rem) puts it in the middle
+     */
+    left: 50%; 
+    transform: translateX(-50%);
+    
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0; /* top_left top_right bottom_right bottom_left */
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem; /* top right bottom left */
+    
+}

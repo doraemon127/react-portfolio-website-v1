@@ -72,6 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Resources
 
+https://react-icons.github.io/react-icons/
+https://stackoverflow.com/questions/56636280/how-to-style-react-icons
+https://stackoverflow.com/questions/46262811/react-icon-does-not-align-with-text
 https://www.youtube.com/watch?v=G-Cr00UYokU&t=1375s
 
 <!-- 
