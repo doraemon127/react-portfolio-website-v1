@@ -62,5 +62,46 @@ header {
     border-radius: 12rem 12rem 0 0; /* top_left top_right bottom_right bottom_left */
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem; /* top right bottom left */
-    
+}
+
+
+/* position scroll down link */
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+
+
+/* -------------- MEDIA QUERIES (medium devices, i.e. tablet) -------------- */
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+
+    }
+}
+
+
+
+/* --------------- MEDIA QUERIES (small devices, i.e. phone) --------------- */
+
+
+@media screen and (max-width: 600px) {
+
+    header {
+        height: 100vh;
+    }
+
+    .socials,
+    .scroll_down {
+        display: none;
+    }
+
 }

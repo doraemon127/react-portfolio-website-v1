@@ -1,3 +1,8 @@
+### TODO
+- make responsive for XL screen https://speckyboy.com/designing-websites-for-large-screens/
+- test above by zooming out to 50% view
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

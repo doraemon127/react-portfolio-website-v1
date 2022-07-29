@@ -19,7 +19,7 @@ const Home = () => {
         <h5> Hello 👋    I am </h5>
         <h1> Aammya Sapra </h1>
 
-        {/* h5 with a class of text-light (Emmet shortcut: h5.text_light + ENTER) */}
+        {/* apply text-light css class to h5 (Emmet shortcut: h5.text_light + ENTER) */}
         <h5 className="text-light"> add text here </h5>
         <CallToAction />
 
@@ -30,7 +30,8 @@ const Home = () => {
           <img src={ME} alt="me" />
         </div>
 
-        <a href="#contact" className='scroll_dowm'>Scroll Down</a>
+        {/* scroll down to contact page when clicked */}
+        <a href="#contact" className='scroll_down'>Scroll Down</a>
 
 
 
