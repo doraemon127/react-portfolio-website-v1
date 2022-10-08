@@ -20,7 +20,7 @@ const Home = () => {
         <h1> Aammya Sapra </h1>
 
         {/* apply text-light css class to h5 (Emmet shortcut: h5.text_light + ENTER) */}
-        <h5 className="text-light"> add text here </h5>
+        <h5 className="text-light"> Lorem Ipsum </h5>
         <CallToAction />
 
         <Socials />
