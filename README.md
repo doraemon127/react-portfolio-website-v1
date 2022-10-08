@@ -21,6 +21,9 @@ and then scroll to see projects
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Screen Shot 2022-10-07 at 10 39 22 PM](https://user-images.githubusercontent.com/79061216/194690891-3a0261ab-9e09-4239-9fda-96ebd3f7ce68.png)
+
+
 
 Built using:
 
