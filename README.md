@@ -17,11 +17,17 @@ and then scroll to see projects
 - test above by zooming out to 50% view -->
 
 
-# Getting Started with Create React App
+# Sample Portfolio Website 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+Built using:
+
+- Front-end library: React
+- CSS framework: React-bootstrap
+
+
 
 In the project directory, you can run:
 
